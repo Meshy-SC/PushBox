@@ -1,0 +1,50 @@
+# PushBox – Support
+
+**Last updated: February 24, 2026**
+
+## Need Help?
+
+If you have any questions, feedback, or issues with PushBox, we're happy to help.
+
+---
+
+## Contact Us
+
+📧 **Email:** [davinci.dalhi@gmail.com](mailto:davinci.dalhi@gmail.com)
+
+We aim to respond to all inquiries within 48 hours.
+
+---
+
+## Frequently Asked Questions
+
+### How do I move the player?
+Use the Siri Remote directional pad (or swipe gestures) to move the player up, down, left, or right. Push boxes onto the target locations to complete each level.
+
+### How is my progress saved?
+Your game progress is saved automatically on your device using SwiftData. If you are signed in to iCloud, your progress syncs across all your Apple devices.
+
+### I lost my progress. How can I recover it?
+Make sure you are signed in to the same iCloud account on your device. Your progress should sync automatically. If the issue persists, try restarting the app or your device.
+
+### How do in-app purchases work?
+Solution credits can be purchased through the app. All transactions are processed securely by Apple via StoreKit. We do not collect or store any payment information.
+
+### How do leaderboards and achievements work?
+PushBox uses Apple Game Center for leaderboards, achievements, and challenges. Make sure Game Center is enabled in your device settings to participate.
+
+### The app is crashing or not working correctly. What should I do?
+1. Make sure you have the latest version of the app installed.
+2. Restart the app.
+3. Restart your device.
+4. If the issue persists, please contact us via email with a description of the problem.
+
+---
+
+## Privacy
+
+For information about how we handle your data, please see our [Privacy Policy](https://github.com/Meshy-SC/PushBox/blob/main/PushBox_tvOS_Privacy_Policy).
+
+---
+
+*This support page applies to PushBox on Apple TV (tvOS).*
