@@ -1,0 +1,73 @@
+# PushBox – Support
+
+**Last updated: February 24, 2026**
+
+## Need Help?
+
+If you have any questions, feedback, or issues with PushBox, we're happy to help.
+
+---
+
+## Contact Us
+
+📧 **Email:** [davinci.dalhi@gmail.com](mailto:davinci.dalhi@gmail.com)
+
+We aim to respond to all inquiries within 48 hours.
+
+---
+
+## Frequently Asked Questions
+
+### How do I move the player?
+
+- **iPhone / iPad (iOS):** Swipe on the screen in the direction you want to move. You can also use an on-screen directional pad.
+- **Mac (macOS):** Use the arrow keys on your keyboard, or click the on-screen directional controls.
+- **Apple Vision Pro (visionOS):** Use gaze and tap, the on-screen directional pad, or a connected keyboard's arrow keys.
+- **Apple TV (tvOS):** Use the Siri Remote directional pad or swipe gestures.
+
+Push the boxes onto the target locations to complete each level.
+
+### How is my progress saved?
+
+Your game progress is saved automatically on your device using SwiftData. If you are signed in to iCloud, your progress syncs across all your Apple devices.
+
+### I lost my progress. How can I recover it?
+
+Make sure you are signed in to the same iCloud account on your device. Your progress should sync automatically. If the issue persists, try the following:
+1. Close and reopen the app.
+2. Restart your device.
+3. Check that iCloud is enabled for PushBox in your device's Settings.
+4. If the issue continues, please contact us via email with a description of the problem.
+
+### How do in-app purchases work?
+
+Solution credits can be purchased through the app. All transactions are processed securely by Apple via StoreKit. We do not collect or store any payment information.
+
+### How do leaderboards and achievements work?
+
+PushBox uses Apple Game Center for leaderboards, achievements, and challenges. Make sure Game Center is enabled in your device settings to participate.
+
+### Can I play on multiple devices?
+
+Yes! If you are signed in to the same iCloud account, your progress, purchases, and unlocked solutions sync across all your Apple devices — iPhone, iPad, Mac, Apple TV, and Apple Vision Pro.
+
+### The app is crashing or not working correctly. What should I do?
+
+1. Make sure you have the latest version of the app installed from the App Store.
+2. Close and reopen the app.
+3. Restart your device.
+4. If the issue persists, please contact us via email with a description of the problem, your device model, and OS version.
+
+---
+
+## Privacy
+
+For information about how we handle your data, please see our Privacy Policy for your platform:
+
+- [iOS / macOS Privacy Policy](https://github.com/Meshy-SC/PushBox/blob/main/PrivacyPolicy)
+- [visionOS Privacy Policy](https://github.com/Meshy-SC/PushBox/blob/main/PrivacyPolicyVisionOS)
+- [tvOS Privacy Policy](https://github.com/Meshy-SC/PushBox/blob/main/PushBox_tvOS_Privacy_Policy)
+
+---
+
+*This support page applies to PushBox on iOS, macOS, visionOS, and tvOS.*
