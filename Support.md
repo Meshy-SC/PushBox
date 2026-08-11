@@ -19,7 +19,7 @@ We aim to respond within 48 hours.
 If you've encountered a bug or crash, please include the following details in your email so we can help you faster:
 
 - Device model (e.g., iPhone 16, Apple Vision Pro)
-- OS version (e.g., tvOS 26.3, iOS 18.2)
+- OS version (e.g., visionOS 26.3, iOS 18.2)
 - A description of what happened and what you were doing at the time
 
 You can also report issues on our [GitHub Issues page](https://github.com/Meshy-SC/PushBox-Support/issues).
