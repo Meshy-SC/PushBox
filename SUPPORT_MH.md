@@ -72,7 +72,7 @@ In the level browser, open **Settings**. You can turn the background music and e
 ### Data and Privacy
 
 **What data does Push Box collect?**
-None. Your progress, settings and solution credits are stored on the headset only, and purchases are handled by Meta. For full details, see our [Privacy Policy](PRIVACY_POLICY_MH.md).
+Very little, and we never see it. Your progress, settings and solution credits are stored on the headset only. Purchases go through the Meta Horizon Store: Meta uses your Meta account's user ID to know which add-ons you own, and the App receives only that list. Push Box has no servers, ads or analytics. For full details, including how to delete your data, see our [Privacy Policy](PRIVACY_POLICY_MH.md).
 
 **How do I start over?**
 Open **Settings → Reset All Progress**. This permanently deletes all level completions, star ratings and scores. Your purchases and solution credits are kept.
