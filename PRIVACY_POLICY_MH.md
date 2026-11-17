@@ -2,20 +2,20 @@
 
 - **App:** Push Box (Push Box Sokoban Puzzle on the Meta Horizon Store)
 - **Publisher:** Meshy (Ahmed Dalhi)
-- **Last updated:** November 9, 2026
+- **Last updated:** November 17, 2026
 
 ---
 
 ## Summary
 
-Push Box has no accounts, no servers, no advertising and no analytics. Your progress and settings stay on your headset. We cannot see them.
-
-Push Box is free to download and sells add-ons through the Meta Horizon Store. For this, it uses two Meta Horizon platform features, which involve data from your Meta account:
+Push Box is free to download and sells add-ons through the Meta Horizon Store. To do this, **Push Box collects and processes the following user data** through two Meta Horizon platform features:
 
 - your **Meta user ID** for this app (Meta's "User ID" feature)
-- your **Push Box purchases** (Meta's "In-app purchases and/or downloadable content" feature)
+- your **Push Box in-app purchase data**: which worlds and solution-credit packs your Meta account owns, and whether each credit pack has been delivered (Meta's "In-app purchases and/or downloadable content" feature)
 
-The app uses this data only to unlock what you bought and to restore it. It also checks with Meta that your copy of the app came from the Meta Horizon Store. Any user can ask us to delete their data at any time. Section 7 explains how.
+Push Box uses this data only to show you the add-on prices, let you buy add-ons, unlock what you bought and restore it. It also checks with Meta that your copy of the app came from the Meta Horizon Store. Your game progress and settings are stored on your headset.
+
+Any user can ask us to delete their data at any time, free of charge. Section 7 explains how.
 
 ---
 
@@ -34,8 +34,8 @@ This policy covers Push Box on Meta Quest headsets running Meta Horizon OS (Meta
 ### 2.1 Your Meta user ID (Meta "User ID" feature)
 
 - **What it is:** the number Meta uses to identify your Meta account inside Push Box. It is not your username. Meta gives each app a different number for the same person, so this one cannot identify you in other apps.
-- **How it is used:** when Push Box asks Meta which add-ons you own, opens Meta's checkout, or marks a solution-credit pack as delivered, the Meta Horizon Platform SDK makes the request for your signed-in Meta account. Meta uses your user ID to find your purchases and to record new ones.
-- The app itself does not read, display, save or send this ID. It is used only between Meta Horizon OS and Meta's servers.
+- **How it is processed:** Push Box processes your user ID through the Meta Horizon Platform SDK every time it asks Meta for the prices of the add-ons, asks which add-ons you own, opens Meta's checkout, or marks a solution-credit pack as delivered. Meta uses it to find and record your purchases for your Meta account.
+- **What it is used for:** only for in-app purchases and the ownership check (section 2.4). It is not used for advertising, profiling or anything else, and it is not shown in the app.
 
 ### 2.2 Your Push Box purchases (Meta "In-app purchases and/or downloadable content" feature)
 
@@ -46,23 +46,25 @@ The first ten levels of the Iron world and the first level of every other world 
 
 What happens:
 
-- **What the app receives from Meta:** the prices of these add-ons in your currency, the list of add-ons your Meta account owns, and the identifier of each solution-credit pack you buy.
-- **How it is used:** to open the worlds you own, to add the credits of each pack exactly once, and to restore your purchases after a reinstall or on another headset (**Settings → Restore Purchases**).
-- **Payment** happens entirely in Meta's own checkout. We never see or receive your payment details, your name, your email address or your billing address.
+- **What is collected:** the prices of these add-ons in your currency, the list of add-ons your Meta account owns, and the identifier (SKU) of each solution-credit pack you buy and whether it has been delivered.
+- **How it is used:** to open the worlds you own, to add the credits of each pack exactly once and then tell Meta that the pack was delivered, and to restore your purchases after a reinstall or on another headset (**Settings → Restore Purchases**).
+- **Payment** happens entirely in Meta's own checkout, run by Meta. Your payment details, name, email address and billing address stay with Meta.
 
 ### 2.3 The earlier version of Push Box
 
-If you bought the earlier version of Push Box, the Iron, Bronze, Silver and Gold worlds stay yours, with every level open. To know this, the app checks **on your headset only** whether the earlier version left files in the app's own storage, and when the app was first installed on the headset. If you played the earlier version, the app also reads its progress file once, to carry your completed levels over. The result is saved on your headset (section 3). Nothing is sent anywhere.
+If you bought the earlier version of Push Box, the Iron, Bronze, Silver and Gold worlds stay yours, with every level open. To know this, the app checks on your headset whether the earlier version left files in the app's own storage, and when the app was first installed on the headset. If you played the earlier version, the app also reads its progress file once, to carry your completed levels over. This check runs on your headset, and its result is stored there (section 3).
 
 ### 2.4 Ownership check (entitlement)
 
-When the app starts, it asks Meta Horizon OS whether your Meta account is entitled to Push Box, as the Meta Horizon Store requires. It gets back a yes or no answer, which is used only for this check and is not saved or sent anywhere.
+When the app starts, it asks Meta Horizon OS whether your Meta account is entitled to Push Box, as the Meta Horizon Store requires. It gets back a yes or no answer, which is used only for this check.
 
 ### 2.5 Mixed reality and controllers
 
-- **Passthrough.** The app places the puzzle on the floor of your room using the headset's passthrough view. Meta Horizon OS draws the passthrough image itself: the app never receives, saves or sends camera images or information about your room.
-- **Head position.** To place the puzzle where you look, and to turn the controls toward the side of the puzzle you are standing on, the app reads the headset's position from Meta Horizon OS while you play. It is used on the spot and is never saved or sent.
-- **Controllers.** The app reads your Touch controllers' buttons, thumbsticks and pointing direction so that you can move and press buttons. This is used on the spot and is never saved or sent.
+- **Passthrough.** The app places the puzzle on the floor of your room using the headset's passthrough view, which Meta Horizon OS draws on the headset.
+- **Head position.** To place the puzzle where you look, and to turn the controls toward the side of the puzzle you are standing on, the app uses the headset's position from Meta Horizon OS while you play.
+- **Controllers.** The app uses your Touch controllers' buttons, thumbsticks and pointing direction so that you can move and press buttons.
+
+The head position and controller input are used only while you play, on your headset.
 
 ### 2.6 Emails you send us
 
@@ -70,9 +72,9 @@ If you email us for support or to request deletion, we receive your email addres
 
 ---
 
-## 3. Data That Stays on Your Headset
+## 3. Data Stored on Your Headset
 
-To keep your game going, the app saves the following in its private storage on your headset. **It never leaves your headset (except in Meta's cloud backup, below), and we cannot see it.**
+To keep your game going, the app stores the following in its private storage on your headset:
 
 - Level completions, best push counts and star ratings
 - Your sound settings and the board size you chose
@@ -84,26 +86,18 @@ To keep your game going, the app saves the following in its private storage on y
 
 ---
 
-## 4. Data We Do Not Collect
+## 4. Crash Reports
 
-We collect nothing beyond what sections 2 and 3 describe. In particular, Push Box does **not** collect:
-
-- Your name, email address or phone number (unless you email us, as in section 2.6)
-- Your payment details
-- Hardware serial numbers or advertising identifiers
-- Location, whether precise or approximate
-- Usage analytics or telemetry
-- Camera images, room data, recordings or voice
-
-The app contains no analytics or crash-reporting code. If the app crashes, Meta Horizon OS may report it to Meta, and Meta's developer dashboard then shows us the technical details: the headset model, the Meta Horizon OS and app versions, and where in the code the crash happened.
+If the app crashes, Meta Horizon OS may report it to Meta, and Meta's developer dashboard then shows us the technical details: the headset model, the Meta Horizon OS and app versions, and where in the code the crash happened. We use them only to fix the problem.
 
 ---
 
 ## 5. Where Your Data Is Stored and Who Can Access It
 
 - **Your Meta user ID and your purchases** are stored by **Meta** on Meta's servers, as part of your Meta account, under [Meta's Privacy Policy](https://www.meta.com/legal/privacy-policy/).
-- Push Box has **no servers, no database and no user accounts** of its own. We (the developer) do not receive your user ID or your list of purchases. Meta's developer dashboard shows us the sales figures of our add-ons and the crash details described in section 4.
-- We do not use any data processors, service providers or partners that can access this data.
+- **Your game progress** (section 3) is stored on your headset, and in Meta's cloud backup if you have it turned on.
+- Push Box has no servers of its own. The developer can see, in Meta's developer dashboard, the sales of our add-ons and the crash details described in section 4.
+- No data processors, service providers or partners other than Meta have access to this data.
 
 ---
 
@@ -111,7 +105,7 @@ The app contains no analytics or crash-reporting code. If the app crashes, Meta 
 
 | Data | How long it is kept |
 |---|---|
-| Meta user ID | Not saved by the app. |
+| Meta user ID | Processed for each purchase request; kept by Meta as part of your Meta account. |
 | Your purchases | On your Meta account, kept by Meta under Meta's Privacy Policy. |
 | Data on your headset (section 3) | Until you reset your progress (progress only) or uninstall the app. |
 | Emails you send us | While we handle your request (section 2.6). |
@@ -127,15 +121,13 @@ The app contains no analytics or crash-reporting code. If the app crashes, Meta 
 You can delete it yourself, immediately:
 
 - In Push Box, **Settings → Reset All Progress** deletes your level completions, push counts and star ratings. Your purchases and solution credits are kept.
-- **Uninstalling Push Box** permanently deletes all of the app's data from your headset. World purchases stay on your Meta account: if you install the app again, **Settings → Restore Purchases** brings them back.
+- **Uninstalling Push Box** permanently deletes all of the app's data from your headset. If cloud backup is on, turn it off for Push Box in your headset's settings first, or the backup can restore it when you install the app again. World purchases stay on your Meta account: if you install the app again, **Settings → Restore Purchases** brings them back.
 
-### Data held by Meta
+### Your user ID and purchase data
 
-Your purchases are part of your Meta account, and Meta keeps them so that you can restore them. You can manage or delete the data Meta holds about your Meta account with Meta's own tools, described in [Meta's Privacy Policy](https://www.meta.com/legal/privacy-policy/). We hold no copy of this data.
+Email **davinci.dalhi@gmail.com** with the subject **"Data deletion request"**, from any email address, and tell us which data you want deleted. Within **30 days** we delete all data we hold about you, including any emails you have sent us, guide you through deleting the data stored on your headset and in Meta's cloud backup, and confirm the deletion to you by email.
 
-### Ask us
-
-Email **davinci.dalhi@gmail.com** with the subject **"Data deletion request"**. Within **30 days**, we delete any emails you have sent us, help you remove the data described above, and confirm the deletion to you by email.
+Your user ID and purchase records are also part of your Meta account. You can delete them, together with your Meta account data, with Meta's own tools described in [Meta's Privacy Policy](https://www.meta.com/legal/privacy-policy/).
 
 We will not refuse a deletion request. No law requires us to keep any of this data.
 
@@ -172,25 +164,25 @@ The game itself plays offline. The app uses the network only through Meta Horizo
 
 - **Internet (`INTERNET`):** used only by the Meta Horizon Platform SDK, to reach Meta for purchases and the ownership check.
 
-Push Box does not request access to the camera, microphone, location, contacts, hand tracking, files outside its own storage, or any advertising identifier.
+This is the only permission Push Box requests.
 
 ---
 
 ## 11. Third Parties, Advertising and Sharing
 
-Push Box contains **no advertising, no analytics and no tracking code**. We do not sell, rent, share or transfer your data to anyone. The only other party involved is Meta, which runs Meta Horizon OS, the Meta Horizon Store and the platform features described in section 2.
+Push Box contains **no advertising, analytics or tracking code**. Your data is never sold, rented or shared for advertising. The only other party involved is Meta, which runs Meta Horizon OS, the Meta Horizon Store and the platform features described in section 2.
 
 ---
 
 ## 12. Children
 
-Push Box is rated for everyone (ESRB Everyone, PEGI 3). It never asks for personal details, and it handles the same limited data (section 2) for every user, whatever their age. A parent or guardian can request deletion of a child's data as described in section 7.
+Push Box is rated for everyone (ESRB Everyone, PEGI 3). It processes the same limited data (section 2) for every user, whatever their age, and asks no one for personal details. A parent or guardian can request deletion of a child's data as described in section 7.
 
 ---
 
 ## 13. Security
 
-We keep no copy of your data on any server. The data on your headset is kept in the app's private storage, which other apps cannot read.
+The data on your headset is kept in the app's private storage, which other apps cannot read. Your user ID and purchase data are processed through Meta's own platform SDK and stored by Meta.
 
 ---
 
